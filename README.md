@@ -128,27 +128,40 @@ Docker
 Maven
 
 🗄 Database Schema
-Accounts
-Column	Type
-id	UUID
+
+Accounts       
+
+Column	        Type
+
+id	        UUID
+
 customer_name	String
-balance	BigDecimal
-status	String
-version	Long
+
+balance	        BigDecimal
+
+status	        String
+
+version	        Long
+
+
 Ledger Entries
-Column	Type
-id	UUID
+
+Column	        Type
+id	        UUID
 transaction_id	UUID
 account_id	UUID
-debit	BigDecimal
-credit	BigDecimal
+debit	        BigDecimal
+credit	        BigDecimal
+
 Idempotency Keys
-Column	Type
-id	UUID
+Column	        Type
+id	        UUID
 idempotency_key	String
 created_at	Timestamp
+
 ▶️ How to Run
 1️⃣ Start Infrastructure
+
 docker-compose up -d
 
 This starts:
