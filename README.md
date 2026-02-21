@@ -131,33 +131,44 @@ Maven
 
 Accounts       
 
-Column	        Type
+Column	   |     Type
 
-id	        UUID
+id	  -      UUID
 
-customer_name	String
+customer_name -	String
 
-balance	        BigDecimal
+balance	   -     BigDecimal
 
-status	        String
+status	   -     String
 
-version	        Long
+version	   -     Long
 
 
 Ledger Entries
 
-Column	        Type
-id	        UUID
-transaction_id	UUID
-account_id	UUID
-debit	        BigDecimal
-credit	        BigDecimal
+Column	  |      Type
+
+id	-        UUID
+
+transaction_id	-  UUID
+
+account_id  -  UUID
+
+debit	  -      BigDecimal
+
+credit	  -      BigDecimal
+
 
 Idempotency Keys
-Column	        Type
-id	        UUID
-idempotency_key	String
-created_at	Timestamp
+
+Column	   |     Type
+
+id	  -      UUID
+
+idempotency_key  -  String
+
+created_at  -  Timestamp
+
 
 ▶️ How to Run
 1️⃣ Start Infrastructure
