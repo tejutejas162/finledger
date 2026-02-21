@@ -108,34 +108,6 @@ Consumer simulates audit/fraud detection
 
 Decouples transaction processing from downstream systems.
 
-📂 Project Structure
-finledger/
- ├── controller/
- │     ├── AccountController
- │     ├── TransactionController
- │
- ├── service/
- │     ├── AccountService
- │     ├── TransactionService
- │     ├── KafkaProducerService
- │
- ├── repository/
- │     ├── AccountRepository
- │     ├── LedgerEntryRepository
- │     ├── IdempotencyRepository
- │
- ├── model/
- │     ├── Account
- │     ├── LedgerEntry
- │     ├── IdempotencyKey
- │
- ├── config/
- │     ├── KafkaConfig
- │
- ├── dto/
- │     ├── AccountRequest
- │     ├── TransferRequest
-
 
 🛠 Tech Stack
 
